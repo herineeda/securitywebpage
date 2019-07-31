@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Animated Checkboxes and Radio Buttons with SVG</title>
+		<meta name="description" content="Animated Checkboxes and Radio Buttons with SVG: Using SVG for adding some fancy 'check' animations to form inputs" />
+		<meta name="keywords" content="animated checkbox, svg, radio button, styled checkbox, css, pseudo element, form, animated svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="Ccss/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="Ccss/demo.css" />
+		<link rel="stylesheet" type="text/css" href="Ccss/component.css" />
+		<script src="Cjs/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="main.html"><span>Previous Demo</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="result6.html"><span>Result</span></a></span>
+			</div>
+			<header>
+				<h1>Make sure it's the right company <br> for you</h1>
+				<p>Group 10 Team Project</p>
+			</header>
+			<section>
+				<form class="ac-custom ac-checkbox ac-cross" autocomplete="off">
+					<h2>Company Characteristics</h2>
+					<h3><span>이 회사가 당신이 원하는 성격을 3가지 이상 가지고 있으면 [this click] button을 누르세요</span></h3>
+					<ul>
+						<li><input id="cb1" name="cb1" type="checkbox"><label for="cb1">대기업에 들어가고 싶다.</label></li>
+						<li><input id="cb2" name="cb2" type="checkbox"><label for="cb2">회사를 다니면서도 교육지원, 금전지원을 받고 싶다.</label></li>
+						<li><input id="cb3" name="cb3" type="checkbox"><label for="cb3">업무강도는 높지만 그만큼 해서 높은 급여를 받고 싶다</label></li>
+						<li><input id="cb4" name="cb4" type="checkbox"><label for="cb4">근무 형태에 변화가 없는 것이 좋다.</label></li>
+						<li><input id="cb5" name="cb5" type="checkbox"><label for="cb5">직접 업무가 적은 것을 더 선호한다</label></li>
+					</ul>
+				</form>
+			</section>
+			<section class="related">
+				<table border="1">
+					<th>
+				<p id="button">If you've made your choice click the button :</p>
+				<p><a href="result6.html">If you have selected more than three : [this click] </a></p>
+				<p><a href="main.html">If you have selected fewer than three : [click] </a></p>
+			</th>
+			</section>
+		</div><!-- /container -->
+		<script src="Cjs/svgcheckbx.js"></script>
+	</body>
+</html>
